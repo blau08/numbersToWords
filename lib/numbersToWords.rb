@@ -78,7 +78,7 @@ class Fixnum
             end
 
         elsif self <= 20
-            return numbers.fetch(self)
+            bank = numbers.fetch(self)
         end
         return bank
     end

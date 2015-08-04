@@ -30,6 +30,10 @@ describe('Fixnum#numberToWords') do
     end
 
     it("converts a three digit number into a string") do
+        expect((112).numberToWords()).to(eq("one hundred twelve"))
+    end
+
+    it("converts a three digit number into a string") do
         expect((131).numberToWords()).to(eq("one hundred thirty one"))
     end
 
